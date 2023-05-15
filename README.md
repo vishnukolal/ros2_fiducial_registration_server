@@ -5,6 +5,10 @@
 This package made using ROS2 Galactic and depends on TF2 and Eigen.
 Ensure that Eigen is installed https://eigen.tuxfamily.org/index.php?title=Main_Page
 
+```
+sudo apt install libeigen3-dev
+```
+
 ## Install
 
 1. Clone the repo
