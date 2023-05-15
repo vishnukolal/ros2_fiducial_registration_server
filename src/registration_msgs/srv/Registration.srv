@@ -1,0 +1,7 @@
+geometry_msgs/Pose[] fixed_frames
+geometry_msgs/Pose[] recorded_frames
+geometry_msgs/Point marker_offset
+---
+geometry_msgs/Pose transform
+float64 error
+string info
