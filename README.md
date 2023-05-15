@@ -1,11 +1,11 @@
 # ROS2 Fiducial Registration Server
 
-##Dependencies
+## Dependencies
 
 This package made using ROS2 Galactic and depends on TF2 and Eigen.
 Ensure that Eigen is installed https://eigen.tuxfamily.org/index.php?title=Main_Page
 
-##Install
+## Install
 
 1. Clone the repo
 
@@ -33,7 +33,7 @@ rosdep install --from-paths src -y --ignore-src
 colcon build
 ```
 
-##Usage
+## Usage
 
 To run the server:
 
