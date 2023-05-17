@@ -24,7 +24,7 @@ void registration_service::callback(const std::shared_ptr<registration_msgs::srv
     B.resize(positionsCount, 3);
     B.setZero();
 
-    //marker offset is used to change the modify the position of the fixed frames points if recorded points do not actually overlap with the fixed points.
+    //marker offset is used to modify the position of the fixed frames points if recorded points do not actually overlap with the fixed points.
     //for example, if the fixed points are a robot's end effector position, and the recorded points are AR tag positions recorded by a camera, then the marker offset will be the XYZ of the AR tag origin wrt the end effector frame.
     Eigen::Vector3d marker_offset;
     marker_offset.x() = request->marker_offset.x;
